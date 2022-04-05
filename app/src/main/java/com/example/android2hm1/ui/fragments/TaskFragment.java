@@ -1,4 +1,4 @@
-package com.example.android2hm1;
+package com.example.android2hm1.ui.fragments;
 
 import android.os.Bundle;
 
@@ -11,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.android2hm1.R;
 import com.example.android2hm1.databinding.FragmentTaskBinding;
 
 
