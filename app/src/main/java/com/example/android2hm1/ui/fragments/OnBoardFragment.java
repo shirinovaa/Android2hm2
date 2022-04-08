@@ -15,7 +15,7 @@ import com.example.android2hm1.R;
 import com.example.android2hm1.ui.adapter.BoardAdapter;
 import com.example.android2hm1.databinding.FragmentOnBoardBinding;
 import com.example.android2hm1.utils.interfaces.ItemClickListener;
-import com.example.android2hm1.data.local.client.BoardClient;
+import com.example.android2hm1.data.model.BoardClient;
 import com.example.android2hm1.data.model.BoardModel;
 
 import java.util.ArrayList;

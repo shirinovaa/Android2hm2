@@ -34,8 +34,8 @@ public class CreateTaskFragment extends Fragment {
             public void onClick(View view) {
                 String text = binding.textEd.getText().toString();
                 Bundle bundle = new Bundle();
-                bundle.putString("key",text);
-                Navigation.findNavController(requireView()).navigate(R.id.taskFragment,bundle);
+                bundle.putString("key", text);
+                Navigation.findNavController(requireView()).navigate(R.id.taskFragment, bundle);
             }
         });
 

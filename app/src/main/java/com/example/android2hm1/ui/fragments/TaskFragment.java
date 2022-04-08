@@ -44,6 +44,13 @@ public class TaskFragment extends Fragment {
         binding.applyBtn.setOnClickListener(view -> {
             Navigation.findNavController(requireView()).navigate(R.id.createTaskFragment);
         });
+        binding.openCreateBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                DialogFragment dialogFragment = new DialogFragment();
+                dialogFragment.show(requireActivity().getSupportFragmentManager(), "");
+            }
+        });
     }
 }
 

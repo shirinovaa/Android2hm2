@@ -1,4 +1,4 @@
-package com.example.android2hm1.data.local.client;
+package com.example.android2hm1.data.model;
 
 import com.example.android2hm1.R;
 import com.example.android2hm1.data.model.BoardModel;
